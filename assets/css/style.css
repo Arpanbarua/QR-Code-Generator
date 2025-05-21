@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container 
+{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    
+    right: 50%;
+    transform: translateX(50%);
+    background-color: white;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    padding: 30px 0;
+    border-radius: 20px;
+
+}
+
+#scanner
+{
+    height: 100vh;
+    position: relative;
+    background-color: lightgray;
+}
+
+#scanner .container h1
+{
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+#scanner .container .txtbox 
+{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+#scanner .container .txtbox:focus 
+{
+    outline: 0;
+}
+
+#scanner .container .mybtn
+{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background: lightcyan;
+    border-radius: 13px;
+    border: none;
+}
+
+#scanner .container .mybtn:hover 
+{
+    background: lightsteelblue;
+    font-weight: 600;
+    
+}
+
+#scanner .container .image 
+{
+    margin: 20px 0;
+}
+
