@@ -42,6 +42,11 @@
     border-radius: 12px;
 }
 
+#scanner .container .txtbox::placeholder 
+{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
 #scanner .container .txtbox:focus 
 {
     outline: 0;
